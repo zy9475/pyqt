@@ -1,0 +1,49 @@
+my_pyqt_project/
+│
+├── main.py                 # 主程序入口
+├── ui                      # 用户界面相关的文件
+│   ├── __init__.py         # 包初始化文件
+│   ├── main_window.ui      # 主窗口的 UI 文件
+│   ├── dialog.ui           # 其他对话框的 UI 文件
+│
+├── resources                # 资源文件（图标、图片等）
+│   ├── __init__.py         # 包初始化文件
+│   ├── icons.qrc           # 资源文件列表
+│
+├── images                   # 图片资源
+│   └── logo.png            # 示例图片
+│
+├── stylesheets              # 样式表文件
+│   └── style.qss           # 样式表文件
+│
+├── models                   # 模型相关文件
+│   └── data_model.py       # 数据模型定义
+│
+├── controllers              # 控制器相关文件
+│   └── controller.py       # 控制器定义
+│
+├── __init__.py              # 包初始化文件
+└── setup.py                 # 安装脚本
+
+建议使用绝对路径或者基于项目根目录的相对路径
+
+添加按钮：
+
+在 <QVBoxLayout> 内部，我们在 <QTextEdit> 和第一个 <QPushButton> 之间添加了一个新的 <QPushButton> 元素。
+新按钮的名称为 play_audio_button，文本为 "播放音频"。
+
+    -webkit-text-size-adjust: 100%;
+    font: 14px Helvetica Neue,Helvetica,PingFang SC,Tahoma,Arial,sans-serif;
+    font-size: 14px;
+    color: #555555;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+    line-height: 1.8;
+    box-sizing: border-box;
+    padding: 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    margin: 0 auto;
+    height: calc(100vh - 200px);
+    width: calc(100vh + 400px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 20px;

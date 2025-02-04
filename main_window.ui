@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>文件读取示例</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTextEdit" name="text_edit"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="load_button">
+      <property name="text">
+       <string>加载文件</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="play_audio_button">
+      <property name="text">
+       <string>播放音频</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="record_audio_button">
+      <property name="text">
+       <string>录制音频</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="start_button">
+      <property name="text">
+       <string>开始音频</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="stop_button">
+      <property name="text">
+       <string>停止音频</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
